@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+.firsth1{
+    text-align: center;
+    font-family: "Rubik Vinyl", system-ui;
+    font-size: 5rem;
+    color: white;
+}
+
+
+.firsth1:hover{
+    color: rgb(31, 31, 95);
+}
+
+body{
+    background: rgb(20, 16, 34);
+    background: linear-gradient(331deg, rgb(68, 53, 117) 0%, rgba(161, 165, 184, 0.555) 52%, rgb(97, 88, 109) 100%); 
+
+}
+
+img{
+    width: 350px;
+    transition: width 0.5s ease;
+    
+}
+
+img:hover{
+    width: 410px;
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.box{
+    border: 2px solid black;
+    width: 70%;
+    margin: 15px;
+    margin-left: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.box:hover{
+    border-color: rgb(219, 216, 4);
+    box-shadow: 1px 1px 10px rgb(245, 245, 245);
+}
+
+
+
+.box1 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box1::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box2 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box2::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box3 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box3::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box4 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box4::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box5 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box5::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box6 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box6::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box7 img{
+    float: left;
+    margin-right: 15px;
+}
+
+.box7::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+button{
+    float: right;
+    /* margin-top: px; */
+    margin-right: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(255, 153, 0);
+    padding: 13px;
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.8;
+}
+
